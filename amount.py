@@ -32,7 +32,7 @@ output_file = "/"
 # http://stackoverflow.com/questions/415511/how-to-get-current-time-in-python
 # However, time is in GMT so it's 5 hours ahead of Chicago 
 
-msg = "amount: " + str(amount) + " " + strftime("%Y-%m-%d %H:%M:%S", gmtime())
+msg = "amount: " + str(amount) + " " + strftime("%Y-%m-%d %H:%M:%S", gmtime()) + "\n"
 
 print msg 
 
